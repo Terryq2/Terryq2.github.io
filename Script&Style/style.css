@@ -31,7 +31,8 @@ body {
     margin-left: 5%;
     background-color: rgba(242, 242, 242, 0.648);
     width: auto;
-
+    padding: 7px;
+    border-radius: 3px;
 }
 
 /* Additional spacing when abstract is open */
