@@ -128,17 +128,21 @@ body {
 .topnav a:hover {
     color: rgb(119, 119, 119);
     transition: 320ms;
-
+    border-bottom:solid #ffffff 1.5px;
 }
 
 .topnav a {
-    margin-left: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 0px;
+
     color: #ffffff;
     text-decoration: none;
     font-weight: 350;
     font-size: 20px;
-    padding: 25px;
+    padding-bottom: 1px;
 }
+
 
 /* _____________________________________________________________________________________________________________________________________________*/
 /*Bottom bar*/
