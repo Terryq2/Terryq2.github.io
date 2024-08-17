@@ -49,7 +49,7 @@ body {
     padding: 0;
     cursor: pointer;
     font-size: 17px;
-    font-weight: 400;
+    font-weight: 400px;
     color: #2c8098;
 
     transition: 300ms ease;
@@ -75,9 +75,9 @@ body {
 .publications {
     width: 900px;
     text-align: left;
-    background-color: white; 
+    background-color: white;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    padding-bottom: 100px; 
+    padding-bottom: 100px;
     padding-right: 50px;
     padding-left: 50px;
     padding-top: 30px;
@@ -120,10 +120,9 @@ body {
 /*Navigation Bar*/
 
 .topnav {
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(36, 36, 36);
     padding-top: 10px;
     padding-bottom: 10px;
-
 }
 
 .topnav a:hover {
@@ -136,44 +135,53 @@ body {
     margin-left: 20px;
     color: #ffffff;
     text-decoration: none;
-    font-family: "Source Sans 3", sans-serif;
-    font-weight: 300;
+    font-weight: 350;
     font-size: 20px;
     padding: 25px;
 }
+
 /* _____________________________________________________________________________________________________________________________________________*/
 /*Bottom bar*/
 
 .bottomMargin {
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    background-color: rgb(37, 37, 37);
-    padding-top: 25px;
-    padding-bottom: 25px;
+    background-color: rgb(36, 36, 36);
+    padding-top: 30px;
+    padding-bottom: 20px;
     text-align: center;
     color: #ffffff;
 }
 
 /* _____________________________________________________________________________________________________________________________________________*/
-/*About*/
+/*About/Home*/
 
 .aboutUs {
     width: 900px;
     text-align: left;
-    background-color: white; 
+    background-color: white;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    padding-bottom: 800px; 
+    padding-bottom: 800px;
     padding-right: 50px;
     padding-left: 50px;
     padding-top: 30px;
+    color: rgb(66, 66, 66);
 }
 
 .aboutUs #recruiting {
-    color: #FF5F05;
-    background-color: rgba(128, 128, 128, 0.196);
+    background-color: rgba(242, 242, 242, 0.648);
+    border-radius: 3px;
+    padding: 7px;
+    font-weight: 600px;
+    color:rgba(210, 105, 30, 0.776)
 }
+
 .aboutUs p {
     font-size: 17px;
 }
+
+.homeContent {}
+
+
 
 /* _____________________________________________________________________________________________________________________________________________*/
 /*Members*/
@@ -185,9 +193,9 @@ body {
 
     width: 900px;
     text-align: left;
-    background-color: white; 
+    background-color: white;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    padding-bottom: 100px; 
+    padding-bottom: 50px;
     padding-right: 50px;
     padding-left: 50px;
     padding-top: 30px;
@@ -202,16 +210,31 @@ body {
     width: 800px;
 }
 
+.collaborators {
+    margin-top: 100px;
+}
+
+
+
+
 .profile {
     margin-bottom: 20px;
 }
 
 .personName {
     font-size: 22px;
+    font-weight: 450;
+    margin-bottom: 0px;
+    color: rgb(66, 66, 66);
+}
+
+.personName i {
+    font-size: 22px;
     font-weight: 350;
     margin-bottom: 0px;
     color: rgb(66, 66, 66);
 }
+
 .selfIntro {
     margin-top: 15px;
 }
@@ -228,6 +251,7 @@ body {
     color: #2c8098;
     transition: 320ms ease;
 }
+
 .website:hover {
     color: #000000;
 }
