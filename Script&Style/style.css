@@ -20,6 +20,16 @@ body {
   background-color: #ffffff;
 }
 
+center {
+  background-color: rgb(239, 239, 239);
+  background-image: url(../Photos/Dome.jpg);
+  background-position-x: center;
+  background-position-y: top;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+
 /* _____________________________________________________________________________________________________________________________________________*/
 /* Publications*/
 .hiddenContent {
@@ -175,8 +185,7 @@ body {
   font-size: 17px;
 }
 
-.homeContent {
-}
+.homeContent {}
 
 /* _____________________________________________________________________________________________________________________________________________*/
 /*Members*/
@@ -212,14 +221,6 @@ body {
 .personName {
   font-size: 22px;
   font-weight: 450;
-  margin-bottom: 0px;
-  color: rgb(66, 66, 66);
-}
-
-.personName i {
-  font-size: 22px;
-  font-weight: 350;
-  margin-bottom: 0px;
   color: rgb(66, 66, 66);
 }
 
@@ -251,3 +252,15 @@ img {
 }
 
 /* _____________________________________________________________________________________________________________________________________________*/
+/* Join Us*/
+.joinUs {
+  width: 900px;
+  text-align: left;
+  background-color: white;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding-bottom: 800px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 30px;
+  color: rgb(66, 66, 66);
+}
